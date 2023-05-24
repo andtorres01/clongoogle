@@ -1,0 +1,146 @@
+/* estilos del body*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #20212447;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header nav a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .navderecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav .navderecha a{
+    color: black;
+} 
+#iconomenu{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#iconoperfil{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* estilos del main*/
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+main .logogoogle{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.logogoogle img{
+    width: 500px;
+    height: 200px;
+}
+.input-menu{
+    width: 539px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.input-menu :hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.inputiconos{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e7e8eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inputtexto{
+    border: none;
+    outline: none;
+    width: 450px;
+    height: 40px;
+}
+.lupa{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.microfono{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.botones{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.botones button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+/* estilos del footter*/
+
+.piepagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    margin-top: auto;
+}
+.piepagina li{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10px;
+}
+.piepagina li a{
+    color: #20212447;
+    text-decoration: underline;
+    display: flex;
+}
+.piepagina ul{
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+.botones div{
+    background-color: #f8f9fa;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.botones div :hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
